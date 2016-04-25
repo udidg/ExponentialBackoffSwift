@@ -31,6 +31,7 @@ UDExponentialBackoffTimerDelegate
 Implementing the following protocol is essential for operating the backofftimer: 
 * func backoffTimerFired (numberOfAttempts : Int, elapsedTime : Double)
 * func backoffTimerStop (reason : BackoffIvalidationType)
+- Backoff Ivalidation Types: [MAX_INTERVAL_TIME_REACHED, MAX_TIME_EPLAPSED_REACHED]
 
 Public API
 ------------
